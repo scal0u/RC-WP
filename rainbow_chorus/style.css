@@ -22,7 +22,7 @@ html, body {
 	min-height: 80vh;
 	box-shadow: inset 0 30vh 30vh rgba(0, 0, 0, 0.38);
 	color: white;
-	background-image: url(img/covers/tube.jpg);
+	background-image: url(/wp-content/themes/rainbow_chorus/img/covers/tube.jpg);
 	background-size: cover;
 	background-position: center;
 	overflow: hidden;
