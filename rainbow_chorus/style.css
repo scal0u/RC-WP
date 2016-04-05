@@ -35,7 +35,7 @@ html, body {
 
 
 .jumbotron .btn, .jumbotron a {
-	color: white;
+	color: white !important;
 }
 
 .jumbotron .social .fa {
