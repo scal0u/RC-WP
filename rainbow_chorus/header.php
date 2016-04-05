@@ -8,8 +8,8 @@
     <script data-require="jquery@*" data-semver="2.2.0" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
     <link data-require="font-awesome@*" data-semver="4.5.0" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.css" />
-    <link rel="stylesheet" href="/wp-content/themes/xx/styles/utilities.css" />
-    <link rel="stylesheet" href="/wp-content/themes/xx/styles/style.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory(); ?>/utilities.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory(); ?>/style.css" />
     <script src="script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
