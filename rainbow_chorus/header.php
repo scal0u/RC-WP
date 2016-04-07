@@ -53,7 +53,8 @@
 	                <p class="social">
 	                    <a><i class="fa fa-facebook fa-lg"></i></a>
 	                    <a><i class="fa fa-twitter fa-lg"></i></a>
-	                    <a><i class="fa fa-youtube fa-lg"></i></a>
+                        <a><i class="fa fa-youtube fa-lg"></i></a>
+	                    <a><i class="fa fa-instagram fa-lg"></i></a>
 	                </p>
 	            </div>
 	        </div>
