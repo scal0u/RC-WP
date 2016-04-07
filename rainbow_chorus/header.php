@@ -51,10 +51,18 @@
 	                    <a class="btn btn-secondary btn-lg"> <i class="fa fa-music"></i> Hear us sing</a>
 	                </p>
 	                <p class="social">
-	                    <a><i class="fa fa-facebook fa-lg"></i></a>
-	                    <a><i class="fa fa-twitter fa-lg"></i></a>
-                        <a><i class="fa fa-youtube fa-lg"></i></a>
-	                    <a><i class="fa fa-instagram fa-lg"></i></a>
+	                    <a href="https://www.facebook.com/RainbowChorus">
+                            <i class="fa fa-facebook fa-lg"></i>
+                        </a>
+	                    <a href="https://twitter.com/rainbowchorus">
+                            <i class="fa fa-twitter fa-lg"></i>
+                        </a>
+                        <a href="https://www.youtube.com/user/TheRainbowchorus/">
+                            <i class="fa fa-youtube fa-lg"></i>
+                        </a>
+	                    <a href="https://instagram.com/rainbowchorus/">
+                            <i class="fa fa-instagram fa-lg"></i>
+                        </a>
 	                </p>
 	            </div>
 	        </div>
