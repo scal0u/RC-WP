@@ -1,8 +1,8 @@
 <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" rel="bookmark">
-	<div class="col-xs-12 col-sm-6 marginBottom">
+	<div class="col-xs-12 marginBottom">
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<div class="news_article paddingBottom">
-				<img src="img/covers/truck.jpg" class="img-responsive full-width">
+				<img src="<? echo the_post_thumbnail_url( 'full' ); ?>" class="img-responsive full-width">
 				<h2 class="h3 paddingX">
 					<span class="date">nov 16 2015</span>
 					<?php the_title(); ?>

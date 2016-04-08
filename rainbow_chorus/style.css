@@ -21,7 +21,7 @@ html, body {
 .jumbotron {
 	min-height: 80vh;
 	box-shadow: inset 0 30vh 30vh rgba(0, 0, 0, 0.38);
-	color: white;
+	color: white !important;
 	background-image: url(/wp-content/themes/rainbow_chorus/img/covers/tube.jpg);
 	background-size: cover;
 	background-position: center;
@@ -35,7 +35,7 @@ html, body {
 
 
 .jumbotron .btn, .jumbotron a {
-	color: white !important;
+	color: white;
 }
 
 .jumbotron .social .fa {
@@ -93,24 +93,24 @@ html, body {
     border-color: white;
 }
 
-.news_row *, .news_article * {
-	color: white;
+.news_article {
+	color: white !important;
 	text-decoration: none;
 }
 
-.news_row:nth-of-type(1)  {
+.article:nth-of-type(1)  {
 	background-color: #40C6E0;
 }
 
-.news_row:nth-of-type(2) .news_article {
+.article:nth-of-type(2) .news_article {
 	background-color: #9EC220;
 }
 
-.news_row:nth-of-type(3) .news_article {
+.article:nth-of-type(3) .news_article {
 	background-color: orange;
 }
 
-.news_row:nth-of-type(4) .news_article {
+.article:nth-of-type(4) .news_article {
 	background-color: #A2274E;
 }
 
@@ -118,7 +118,7 @@ html, body {
 	background-color: #9B9C94;
 }
 
-.news_row .date {
+.news_article .date {
 	display: block;
     text-transform: uppercase;
     font-weight: normal;
@@ -144,8 +144,11 @@ html, body {
 
 @media (min-width: 768px) {
 	.menu_balls {
-		margin-top: -8vw;
 		padding-bottom: 3vw;
+	}
+
+	.jumbotron {
+		margin-bottom: -8vw;
 	}
 
 	.jumbotron .btn {

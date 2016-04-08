@@ -34,42 +34,43 @@
 		<div id="container">
  -->
 
-	<?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { ?>
 
-	    <div class="jumbotron text-center noMarginBottom">
+        <div class="jumbotron text-center noMarginBottom">
 
-	        <div class="rainbow_cache rainBlue"></div>
+            <div class="rainbow_cache rainBlue"></div>
 
-	        <div class="container">
-	            <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" class="logo" alt="Rainbow Chorus Logo">
+            <div class="container">
+	            <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" class="logo" alt="Rainbow Chorus"></a>
 	            <a class="menuIcon"><i class="fa fa-bars fa-2x"></i></a>
-	            <div class="bottom">
-	                <h1>Strength in Harmony</h1>
-	                <p class="lead">The Rainbow Chorus is Brighton & Hove’s only non-audition LGBT choir, and the only one in the South outside of London.</p>
-	                <p>
-	                    <a class="btn btn-primary btn-lg"> <i class="fa fa-sign-in"></i> Join us</a>
-	                    <a class="btn btn-secondary btn-lg"> <i class="fa fa-music"></i> Hear us sing</a>
-	                </p>
-	                <p class="social">
-	                    <a href="https://www.facebook.com/RainbowChorus">
-                            <i class="fa fa-facebook fa-lg"></i>
-                        </a>
-	                    <a href="https://twitter.com/rainbowchorus">
-                            <i class="fa fa-twitter fa-lg"></i>
-                        </a>
-                        <a href="https://www.youtube.com/user/TheRainbowchorus/">
-                            <i class="fa fa-youtube fa-lg"></i>
-                        </a>
-	                    <a href="https://instagram.com/rainbowchorus/">
-                            <i class="fa fa-instagram fa-lg"></i>
-                        </a>
-	                </p>
-	            </div>
-	        </div>
+              <?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { ?>
+    	            <div class="bottom">
+    	                <h1>Strength in Harmony</h1>
+    	                <p class="lead">The Rainbow Chorus is Brighton & Hove’s only non-audition LGBT choir, and the only one in the South outside of London.</p>
+    	                <p>
+    	                    <a class="btn btn-primary btn-lg"> <i class="fa fa-sign-in"></i> Join us</a>
+    	                    <a class="btn btn-secondary btn-lg"> <i class="fa fa-music"></i> Hear us sing</a>
+    	                </p>
+    	                <p class="social">
+    	                    <a href="https://www.facebook.com/RainbowChorus">
+                                <i class="fa fa-facebook fa-lg"></i>
+                            </a>
+    	                    <a href="https://twitter.com/rainbowchorus">
+                                <i class="fa fa-twitter fa-lg"></i>
+                            </a>
+                            <a href="https://www.youtube.com/user/TheRainbowchorus/">
+                                <i class="fa fa-youtube fa-lg"></i>
+                            </a>
+    	                    <a href="https://instagram.com/rainbowchorus/">
+                                <i class="fa fa-instagram fa-lg"></i>
+                            </a>
+    	                </p>
+    	            </div>
+               <? } else { ?>
+               <? } ?>
+            </div>
 
-	    </div>
+        </div>
 
-	<? } ?>
 
     <div class="container">
 
