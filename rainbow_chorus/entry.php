@@ -4,15 +4,14 @@
 			<div class="news_article paddingBottom">
 				<img src="<? echo the_post_thumbnail_url( 'full' ); ?>" class="img-responsive full-width">
 				<h2 class="h3 paddingX">
-					<span class="date">nov 16 2015</span>
+					<span class="date"><?php the_date('F jS, Y'); ?></span>
 					<?php the_title(); ?>
 				</h2>
-			</div>  
+			</div>
 		</article>
 	</div>
 </a>
-
-
+<?php if ( is_singular() ) the_content(); ?>  
 
 <?php // edit_post_link(); ?>
 <?php // if ( is_singular() ) { echo '<h1 class="entry-title">'; } else { echo '<h2 class="entry-title">'; } ?>

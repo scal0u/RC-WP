@@ -35,13 +35,14 @@
  -->
 
 
-        <div class="jumbotron text-center noMarginBottom">
+        <div class="jumbotron text-center <? if ( is_front_page() || is_home() || is_front_page() && is_home() ) echo "home"; else echo "min" ?> ">
 
             <div class="rainbow_cache rainBlue"></div>
 
             <div class="container">
+
 	            <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" class="logo" alt="Rainbow Chorus"></a>
-	            <a class="menuIcon"><i class="fa fa-bars fa-2x"></i></a>
+	            <!-- <a class="menuIcon"><i class="fa fa-bars fa-2x"></i></a> -->
               <?php if ( is_front_page() || is_home() || is_front_page() && is_home() ) { ?>
     	            <div class="bottom">
     	                <h1>Strength in Harmony</h1>
@@ -67,44 +68,45 @@
     	            </div>
                <? } else { ?>
                <? } ?>
+
+                <div class="row menu_balls">
+                    <div class="col-xs-4 col-sm-2">
+                        <a href="/about-us">                
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/menu/about.png" alt="" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="col-xs-4 col-sm-2">
+                        <a href="/join-us">                
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/menu/join.png" alt="" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="col-xs-4 col-sm-2">
+                        <a href="/performances">                
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/menu/perfs.png" alt="" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="col-xs-4 col-sm-2">
+                        <a href="/press">                
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/menu/press.png" alt="" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="col-xs-4 col-sm-2">
+                        <a href="http://www.brownpapertickets.com/event/2527706">                
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/menu/tickets.png" alt="" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="col-xs-4 col-sm-2">
+                        <a href="/join-us/volunteer">                
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/menu/volunteer.png" alt="" class="img-responsive">
+                        </a>
+                    </div>
+                </div>
+
             </div>
 
         </div>
 
 
     <div class="container">
-
-        <div class="row menu_balls">
-            <div class="col-xs-4 col-sm-2">
-                <a href="/about-us">                
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/menu/about.png" alt="" class="img-responsive">
-                </a>
-            </div>
-            <div class="col-xs-4 col-sm-2">
-                <a href="/performances">                
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/menu/join.png" alt="" class="img-responsive">
-                </a>
-            </div>
-            <div class="col-xs-4 col-sm-2">
-                <a href="/join-us">                
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/menu/perfs.png" alt="" class="img-responsive">
-                </a>
-            </div>
-            <div class="col-xs-4 col-sm-2">
-                <a href="/press">                
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/menu/press.png" alt="" class="img-responsive">
-                </a>
-            </div>
-            <div class="col-xs-4 col-sm-2">
-                <a href="http://www.brownpapertickets.com/event/2386279">                
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/menu/tickets.png" alt="" class="img-responsive">
-                </a>
-            </div>
-            <div class="col-xs-4 col-sm-2">
-                <a href="/join-us/volunteer">                
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/menu/volunteer.png" alt="" class="img-responsive">
-                </a>
-            </div>
-        </div>
 
         <div class="row">
